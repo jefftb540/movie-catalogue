@@ -1,27 +1,42 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Catálogo de filmes
 
-Currently, two official plugins are available:
+Projeto criado como exemplo e trabalhado com alunos durante oficina de desenvolvimento frontend com react na semana de informática do IFRN Apodi.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O catálogo exemplifica o consume de uma API (utilizando a API https://developer.themoviedb.org/docs) com react, trabalhando conceitos básicos de gerenciamento de estado, requisições HTTP e tratamento de eventos
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+##
 
-- Configure the top-level `parserOptions` property like this:
+Funcionalidades desenvolvidas:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+- Listagem de filmes
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Instalação
+
+É necessário ter instalado o `NodeJS` e o `npm` antes de instalar o sistema
+
+#### Clone este repositório:
+
+`git clone git@github.com:jefftb540/movie-catalogue.git`
+
+Ou
+
+`git clone https://github.com/jefftb540/movie-catalogue`
+
+#### Instale as dependencias
+
+`npm install`
+
+#### Inicie o servidor
+
+`npm run dev`
+
+#### Acesse o sistema através do link `http://localhost:5173`
+
+
+## Tecnologias utilizadas
+
+- React
+- Vite
+- Axios
